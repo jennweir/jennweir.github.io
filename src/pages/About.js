@@ -63,7 +63,7 @@ const About = () => {
   };
   return (
     <div style={{ justifyContent: 'Center', margin: '1%' }}>
-      <div style={{ display: 'flex' }}>
+      <div style={{ display: 'flex' }} className="mobile">
         <div style={{ flex: '50%', marginTop: '5%' }} className='font-link'>
           <h1>Hi, my name is</h1>
           <p style={{ fontSize: '60px', fontWeight: '700', margin: '20px' }}>Jennifer Weir</p>
@@ -105,7 +105,8 @@ const About = () => {
 
       <div id="background"></div>
       <div style={{ marginTop: '5%' }}>
-        <div style={{ display: 'flex', justifyContent: 'Center', marginLeft: '30px' }} className='font-link'>
+        <div style={{ display: 'flex', justifyContent: 'Center', marginLeft: '30px' }} 
+        className='font-link mobile'>
           <div style={{ flex: '50%', textAlign: 'left', fontSize: '50px', fontWeight: '700' }}>
             <p style={{ marginBottom: '10px' }}>A Quick</p>
             <p style={{ marginTop: '10px' }}>Background</p>
@@ -188,7 +189,7 @@ const About = () => {
       
       <div id="facts"></div>
       <div style={{ marginTop: '10%', display: 'flex', justifyContent: 'Center', marginLeft: '30px' }} 
-      className='font-link'>
+      className='font-link mobile'>
         <div style={{ flex: '50%', textAlign: 'left', fontSize: '50px', fontWeight: '700' }}>
           <p style={{ marginBottom: '10px' }}>Three Fun</p>
           <p style={{ marginTop: '10px' }}>Facts</p>
