@@ -18,22 +18,22 @@ const About = () => {
    const styles = {
     greenFont: {
       textDecoration: 'none',
-      margin: '5px',
+      margin: '1%',
       color: 'rgb(4, 116, 56)',
     },
     greenLinks: {
-      margin: '10px',
+      margin: '2%',
     },
     subheading: {
       color: 'rgb(4, 116, 56)', 
       marginBottom: '0.5%', 
-      padding: '2px',
+      padding: '0.5%',
     },
     subText: {
       fontSize: '23px', 
       fontWeight: '600', 
       marginTop: '0.5%', 
-      padding: '2px',
+      padding: '1%',
     },
     whiteBox: {
       alignItems: 'Center', 
@@ -45,28 +45,22 @@ const About = () => {
     },
     imageTop: {
       width: '100%', 
-      borderRadius: '30px', 
-      marginBottom: '20px',
+      borderRadius: '6%', 
+      marginBottom: '4%',
     },
     imageBottom: {
       width: '100%', 
-      borderRadius: '30px', 
-      marginTop: '20px',
+      borderRadius: '6%', 
+      marginTop: '4%',
     },
-    mobile: {
-      
-    }
-  
-  
-  
   
   };
   return (
     <div style={{ justifyContent: 'Center', margin: '1%' }}>
       <div style={{ display: 'flex' }} className="mobile">
-        <div style={{ flex: '50%', marginTop: '5%' }} className='font-link'>
+        <div style={{ flex: '50%', marginTop: '4%' }} className='font-link'>
           <h1>Hi, my name is</h1>
-          <p style={{ fontSize: '60px', fontWeight: '700', margin: '20px' }}>Jennifer Weir</p>
+          <p style={{ fontSize: '50px', fontWeight: '700', margin: '4%' }}>Jennifer Weir</p>
           <h1 style={styles.greenFont}>I'm a Computer</h1>
           <h1 style={styles.greenFont}>Science student</h1>
           <div style={{ marginTop: '2%' }}>
@@ -76,7 +70,7 @@ const About = () => {
           </div>
 
           <div style={{ display: 'flex', alignItems: 'Center' }}>
-            <div style={{ margin: '10px' }}>
+            <div style={{ margin: '2%' }}>
                 <a href="mailto: jennweir@umich.edu">
                   <img src={email} alt="email" style={{ width: '12%', margin: '2%' }}></img>
                 </a>
@@ -93,7 +87,7 @@ const About = () => {
           </div>
 
         </div>
-        <div style={{ flex: '50%', margin: '20px', display: 'flex', justifyContent: 'Center', 
+        <div style={{ flex: '50%', margin: '4%', display: 'flex', justifyContent: 'Center', 
         alignItems: 'Center' }}> 
           <img src={mainPhoto} alt="Jennifer" style={{ width: '65%', borderRadius: '30px' }}/>
         </div>
@@ -105,28 +99,28 @@ const About = () => {
 
       <div id="background"></div>
       <div style={{ marginTop: '5%' }}>
-        <div style={{ display: 'flex', justifyContent: 'Center', marginLeft: '30px' }} 
+        <div style={{ display: 'flex', justifyContent: 'Center', marginLeft: '6%' }} 
         className='font-link mobile'>
           <div style={{ flex: '50%', textAlign: 'left', fontSize: '50px', fontWeight: '700' }}>
-            <p style={{ marginBottom: '10px' }}>A Quick</p>
-            <p style={{ marginTop: '10px' }}>Background</p>
+            <p style={{ marginBottom: '2%' }}>A Quick</p>
+            <p style={{ marginTop: '2%' }}>Background</p>
           </div>
           
-          <div style={{ flex: '50%', margin: '20px'}}>
+          <div style={{ flex: '50%', margin: '4%'}}>
             <div style={styles.whiteBox} className='font-link'>
-              <div style={{ marginLeft: '10px' }}>
+              <div style={{ marginLeft: '2%' }}>
               <h1 style={styles.subheading}>I'm based in</h1>
               <p style={styles.subText}>ANN ARBOR, MI</p>
               </div>
             </div> 
             <div style={styles.whiteBox} className='font-link'>
-              <div style={{ marginLeft: '10px'}}>
+              <div style={{ marginLeft: '2%'}}>
               <h1 style={styles.subheading}>I'm a 3rd year student (graduating April 2024) at</h1>
               <p style={styles.subText}>THE UNIVERSITY OF MICHIGAN</p>
               </div>
             </div> 
             <div style={styles.whiteBox} className='font-link'>
-              <div style={{ marginLeft: '10px' }}>
+              <div style={{ marginLeft: '2%' }}>
               <h1 style={styles.subheading}>Last summer I interned at Northrop Grumman as a</h1>
               <p style={styles.subText}>SYSTEMS TEST ENGINEER</p>
               </div>
@@ -136,7 +130,7 @@ const About = () => {
       </div>
 
       <div id="more"></div>
-      <div style={{ fontSize: '20px', fontWeight: '600', marginTop: '10.5%', margin: '5%', 
+      <div style={{ fontSize: '20px', fontWeight: '600', marginTop: '10%', margin: '5%', 
       alignItems: 'Left' }} className="font-link">
         <p>I'm an undergraduate student studying Computer Science with a 
           minor in Complex Systems at the University of Michigan Ann Arbor (graduating April 2024). 
@@ -163,9 +157,9 @@ const About = () => {
       </div>
       
 
-      <div id="pictures"></div>
-      <div style={{ marginTop: '10%', marginBottom: '5%' }}>
-          <div style={{ display: 'flex', justifyContent: 'Center', margin: '20px' }} className='font-link'>
+      <div id="pictures" className='mobile-disappear'></div>
+      <div style={{ marginTop: '10%', marginBottom: '5%' }} className='mobile-disappear'>
+          <div style={{ display: 'flex', justifyContent: 'Center', margin: '4%' }} className='font-link'>
             <div style={{ flex: '30%' }}>
               <img src={archRock} alt="Arch-shaped rock in the landscape" style={styles.imageTop}/>
               <img src={switzerFalls} alt="Jennifer on the side of a mountain" style={styles.imageBottom}/>
@@ -173,7 +167,7 @@ const About = () => {
             <div style={{ flex: '70%' }}>
               <div style= {{ display: 'flex' }}> 
                 <div style={{ flex: '40%'}}>
-                  <img src={campus} alt="Campus in the fall" style={{ width: '74%', borderRadius: '30px' }}/>
+                  <img src={campus} alt="Campus in the fall" style={{ width: '74%', borderRadius: '6%' }}/>
                 </div>
                 <div style={{ flex: '30%' }}>
                   <img src={sequoiaHike} alt="Jennifer on a hike" style={styles.imageTop}/>
@@ -188,30 +182,30 @@ const About = () => {
       
       
       <div id="facts"></div>
-      <div style={{ marginTop: '10%', display: 'flex', justifyContent: 'Center', marginLeft: '30px' }} 
+      <div style={{ marginTop: '10%', display: 'flex', justifyContent: 'Center', marginLeft: '6%' }} 
       className='font-link mobile'>
         <div style={{ flex: '50%', textAlign: 'left', fontSize: '50px', fontWeight: '700' }}>
-          <p style={{ marginBottom: '10px' }}>Three Fun</p>
-          <p style={{ marginTop: '10px' }}>Facts</p>
+          <p style={{ marginBottom: '2%' }}>Three Fun</p>
+          <p style={{ marginTop: '2%' }}>Facts</p>
         </div>
 
-        <div style={{ flex: '50%', margin: '20px' }}>
+        <div style={{ flex: '50%', margin: '4%' }}>
           <div style={styles.whiteBox} className='font-link'>
-            <div style={{ marginLeft: '10px' }}>
+            <div style={{ marginLeft: '2%' }}>
             <h1 style={styles.subheading}>I love snorkeling</h1>
             <p style={styles.subText}>I've gone snorkeling in the Atlantic 
             and Pacific Oceans and I hope to receive my scuba diving certification one day!</p>
             </div>
           </div> 
           <div style={styles.whiteBox} className='font-link'>
-            <div style={{ marginLeft: '10px'}}>
+            <div style={{ marginLeft: '2%'}}>
             <h1 style={styles.subheading}>I play the flute</h1>
             <p style={styles.subText}>I love classical music and I was 
             involved with band and orchestra all throughout highschool.</p>
             </div>
           </div> 
           <div style={styles.whiteBox} className='font-link'>
-            <div style={{ marginLeft: '10px' }}>
+            <div style={{ marginLeft: '2%' }}>
             <h1 style={styles.subheading}>I'm NASA solder certified</h1>
             <p style={styles.subText}>During my summer 2022 internship I
             took a soldered electrical assemblies class and became solder certified 
@@ -222,7 +216,8 @@ const About = () => {
       </div>
 
       <div style={{ display: 'flex', alignItems: 'Center' }}>
-        <div style={{  }}>
+        <div style={{ justifyContent: 'Center' }}
+        className='mobile-disappear'>
             <a href="mailto: jennweir@umich.edu">
               <img src={email} alt="email" style={{ width: '5%', margin: '2%' }}></img>
             </a>
@@ -237,7 +232,6 @@ const About = () => {
             </a>
         </div>
       </div>
-
       <GoToTop />
     </div>
   );
