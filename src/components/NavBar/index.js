@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ScrollToTop from "react-scroll-to-top";
+import DropDown from "../DropDown/index";
 import {
     Nav,
     NavLink,
@@ -7,6 +8,14 @@ import {
   } from './NavBarElements';
   
 const Navbar = () => {
+  const [width, setWidth] = React.useState(window.innerWidth);
+  const breakPoint = 768;
+  useEffect(() => {
+   const handleWindowResize = () => setWidth(window.innerWidth);
+   window.addEventListener("resize", handleWindowResize);
+   return () => window.removeEventListener("resize", handleWindowResize);
+  },[]);
+
   const [theme, setTheme] = useState('light');
   const toggleTheme = () => {
     if (theme === 'light') {
@@ -21,6 +30,11 @@ const Navbar = () => {
   return (
     <>
       <Nav>
+      {width > breakPoint? (
+        <div></div>
+      ) : (
+        <DropDown/>
+      )}
         <NavMenu>
           <ScrollToTop smooth/>
           <NavLink to='/' activeStyle>
