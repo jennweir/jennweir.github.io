@@ -53,9 +53,6 @@ const About = () => {
       borderRadius: '6%', 
       marginTop: '4%',
     },
-    mobile: {
-      
-    }
   
   };
   return (
@@ -63,7 +60,7 @@ const About = () => {
       <div style={{ display: 'flex' }} className="mobile">
         <div style={{ flex: '50%', marginTop: '4%' }} className='font-link'>
           <h1>Hi, my name is</h1>
-          <p style={{ fontSize: '60px', fontWeight: '700', margin: '4%' }}>Jennifer Weir</p>
+          <p style={{ fontSize: '50px', fontWeight: '700', margin: '4%' }}>Jennifer Weir</p>
           <h1 style={styles.greenFont}>I'm a Computer</h1>
           <h1 style={styles.greenFont}>Science student</h1>
           <div style={{ marginTop: '2%' }}>
@@ -160,8 +157,8 @@ const About = () => {
       </div>
       
 
-      <div id="pictures"></div>
-      <div style={{ marginTop: '10%', marginBottom: '5%' }} className='mobile-disapper'>
+      <div id="pictures" className='mobile-disappear'></div>
+      <div style={{ marginTop: '10%', marginBottom: '5%' }} className='mobile-disappear'>
           <div style={{ display: 'flex', justifyContent: 'Center', margin: '4%' }} className='font-link'>
             <div style={{ flex: '30%' }}>
               <img src={archRock} alt="Arch-shaped rock in the landscape" style={styles.imageTop}/>
@@ -220,18 +217,18 @@ const About = () => {
 
       <div style={{ display: 'flex', alignItems: 'Center' }}>
         <div style={{ justifyContent: 'Center' }}
-        className='mobile-only desktop-only'>
+        className='mobile-disappear'>
             <a href="mailto: jennweir@umich.edu">
-              <img src={email} alt="email" style={{ width: '10%', margin: '2%' }}></img>
+              <img src={email} alt="email" style={{ width: '5%', margin: '2%' }}></img>
             </a>
             <a href="https://www.linkedin.com/in/jennifer-weir">
-              <img src={linkedin} alt="linkedin" style={{ width: '10%', margin: '2%' }}></img>
+              <img src={linkedin} alt="linkedin" style={{ width: '5%', margin: '2%' }}></img>
             </a>
             <a href="https://github.com/jennweir">
-              <img src={github} alt="github" style={{ width: '10%', margin: '2%' }}></img>
+              <img src={github} alt="github" style={{ width: '5%', margin: '2%' }}></img>
             </a>
             <a href={resumepdf} target="_blank" rel="noreferrer">
-              <img src={resume} alt="resume" style={{ width: '10%', margin: '2%' }}></img>
+              <img src={resume} alt="resume" style={{ width: '5%', margin: '2%' }}></img>
             </a>
         </div>
       </div>

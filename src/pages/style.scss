@@ -3,7 +3,6 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-height: 160px;
 font-size: 35px;
 line-height: 40px;
 color: #000000;
@@ -63,8 +62,31 @@ color: #000000;
             &__item {
                 line-height: 40px;
                 margin: 0;
+
             }
         }
+    }
+}
+
+.subcontent {
+    margin-top: 10%;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+
+    &__container {
+        margin-top: 5%;
+        font-weight: 600;
+        overflow: hidden;
+        height: 100%;
+        padding: 0 40px;
+
+        &__text {
+            font-size: xx-large;
+            display: inline;
+            margin: 0;
+        }
+
     }
 }
 
