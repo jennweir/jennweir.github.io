@@ -10,17 +10,17 @@ const Blog = () => {
   const styles={
     blogImage: {
       width: '80%', 
-      borderRadius: '30px', 
-      margin: '20px',
+      borderRadius: '8px', 
+      margin: '4%',
     }
   };
   return (
-    <div style={{ justifyContent: 'Center', alignItems: 'Center', margin: '30px' }} className="font-link">
+    <div style={{ justifyContent: 'Center', alignItems: 'Center', margin: '6%' }} className="font-link">
       <div>
         <h1>Blog Posts</h1>
       </div>
       <div>
-        <p style={{ fontSize: '23px', fontWeight: '600', marginTop: '5px', padding: '2px' }}>
+        <p style={{ fontSize: '20px', fontWeight: '600', marginTop: '5px', padding: '2px' }}>
         I am a member of Girls in Electrical Engineering and Computer Science (GEECS) at U of M. 
         Within this organization, I have been on the Internal Relations Committee for 3 semesters 
         and have written numerous blog posts with a target audience of women in tech. 

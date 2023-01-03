@@ -89,7 +89,7 @@ const About = () => {
         </div>
         <div style={{ flex: '50%', margin: '4%', display: 'flex', justifyContent: 'Center', 
         alignItems: 'Center' }}> 
-          <img src={mainPhoto} alt="Jennifer" style={{ width: '65%', borderRadius: '30px' }}/>
+          <img src={mainPhoto} alt="Jennifer" style={{ width: '60%', borderRadius: '6%' }}/>
         </div>
       </div>
 
@@ -125,14 +125,14 @@ const About = () => {
               <p style={styles.subText}>SYSTEMS TEST ENGINEER</p>
               </div>
             </div> 
+            <div id="more"></div>
           </div>
         </div>
       </div>
 
-      <div id="more"></div>
       <div style={{ fontSize: '20px', fontWeight: '600', marginTop: '10%', margin: '5%', 
       alignItems: 'Left' }} className="font-link">
-        <p>I'm an undergraduate student studying Computer Science with a 
+        <p className="mobile-spacing">I'm an undergraduate student studying Computer Science with a 
           minor in Complex Systems at the University of Michigan Ann Arbor (graduating April 2024). 
           Last summer I interned at Northrop Grumman as a Systems Test Engineer and worked as a NASA
           contractor at the Armstrong Flight Research Center. I'm a passionate student with an 

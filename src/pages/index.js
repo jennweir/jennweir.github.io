@@ -20,7 +20,7 @@ const Home = () => {
           <ul class="content__container__list">
             <li class="content__container__list__item">world</li>
             <li class="content__container__list__item">coders</li>
-            <li class="content__container__list__item">creatives</li>
+            <li class="content__container__list__item">creators</li>
             <li class="content__container__list__item">everyone!</li>
           </ul>
         </div>
@@ -33,16 +33,16 @@ const Home = () => {
           <div style={{ display: 'flex', alignItems: 'Center' }} className="subcontent__container">
             <div>
                 <a href="mailto: jennweir@umich.edu">
-                  <img src={email} alt="email" style={{ width: '12%', margin: '2%' }}></img>
+                  <img src={email} alt="email" style={{ width: '20%', margin: '2%' }}></img>
                 </a>
                 <a href="https://www.linkedin.com/in/jennifer-weir">
-                  <img src={linkedin} alt="linkedin" style={{ width: '12%', margin: '2%' }}></img>
+                  <img src={linkedin} alt="linkedin" style={{ width: '20%', margin: '2%' }}></img>
                 </a>
                 <a href="https://github.com/jennweir">
-                  <img src={github} alt="github" style={{ width: '12%', margin: '2%' }}></img>
+                  <img src={github} alt="github" style={{ width: '20%', margin: '2%' }}></img>
                 </a>
                 <a href={resumepdf} target="_blank" rel="noreferrer">
-                  <img src={resume} alt="resume" style={{ width: '12%', margin: '2%' }}></img>
+                  <img src={resume} alt="resume" style={{ width: '20%', margin: '2%' }}></img>
                 </a>
             </div>
           </div>

@@ -37,6 +37,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .mobile-spacing {
+    margin-top: 25%;
+  }
+}
+
 .font-link {
   font-family: 'Work Sans'
 }

@@ -10,6 +10,9 @@ export const Nav = styled.nav`
   z-index: 12;
   position: sticky;
   top: 0;
+  @media screen and (max-width: 768px) {
+    height: 70px;
+  }
 `;
   
 export const NavLink = styled(Link)`
