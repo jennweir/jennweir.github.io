@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
+// import { useState } from 'react';
 import ScrollToTop from "react-scroll-to-top";
 import DropDown from "../DropDown/index";
 import {
@@ -11,22 +12,22 @@ const Navbar = () => {
   const [width, setWidth] = React.useState(window.innerWidth);
   const breakPoint = 768;
   useEffect(() => {
-   const handleWindowResize = () => setWidth(window.innerWidth);
-   window.addEventListener("resize", handleWindowResize);
-   return () => window.removeEventListener("resize", handleWindowResize);
+  const handleWindowResize = () => setWidth(window.innerWidth);
+  window.addEventListener("resize", handleWindowResize);
+  return () => window.removeEventListener("resize", handleWindowResize);
   },[]);
 
-  const [theme, setTheme] = useState('light');
-  const toggleTheme = () => {
-    if (theme === 'light') {
-      setTheme('dark');
-    } else {
-      setTheme('light');
-    }
-  };
-  useEffect(() => {
-    document.body.className = theme;
-  }, [theme]);
+  // const [theme, setTheme] = useState('light');
+  // const toggleTheme = () => {
+  //   if (theme === 'light') {
+  //     setTheme('dark');
+  //   } else {
+  //     setTheme('light');
+  //   }
+  // };
+  // useEffect(() => {
+  //   document.body.className = theme;
+  // }, [theme]);
   return (
     <>
       <Nav>
@@ -49,7 +50,7 @@ const Navbar = () => {
           <NavLink to='/blog' activeStyle>
             Blog
           </NavLink>
-          <button onClick={toggleTheme}>Dark Mode</button>
+          {/* <button onClick={toggleTheme}>Dark Mode</button> */}
         </NavMenu>
       </Nav>
     </>
