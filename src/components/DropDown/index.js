@@ -29,10 +29,10 @@ function DropDown() {
         </Dropdown.Toggle>
   
         <Dropdown.Menu style={styles.menu}>
-          <Dropdown.Item href="/" style={styles.item}>Home</Dropdown.Item>
-          <Dropdown.Item href="/about" style={styles.item}>About</Dropdown.Item>
-          <Dropdown.Item href="/projects" style={styles.item}>Projects</Dropdown.Item>
-          <Dropdown.Item href="/blog" style={styles.item}>Blog</Dropdown.Item>
+          <Dropdown.Item href="/#/" style={styles.item}>Home</Dropdown.Item>
+          <Dropdown.Item href="/#/about/" style={styles.item}>About</Dropdown.Item>
+          <Dropdown.Item href="/#/projects/" style={styles.item}>Projects</Dropdown.Item>
+          <Dropdown.Item href="/#/blog/" style={styles.item}>Blog</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
     );
