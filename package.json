@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://jennweir.github.io",
+  "homepage": "https://jennweir.github.io",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -16,6 +16,7 @@
     "react-dropdown": "^1.11.0",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.6.1",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-scroll-to-top": "^3.0.0",
     "sass": "^1.57.1",
