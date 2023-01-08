@@ -64,9 +64,9 @@ const About = () => {
           <h1 style={styles.greenFont}>I'm a Computer</h1>
           <h1 style={styles.greenFont}>Science student</h1>
           <div style={{ marginTop: '2%' }}>
-            <a href="#background" style={styles.greenLinks}>Quick Background</a>
-            <a href="#more" style={styles.greenLinks}>More Info</a>
-            <a href="#facts" style={styles.greenLinks}>Fun Facts</a>
+            <a href="/#background/" style={styles.greenLinks}>Quick Background</a>
+            <a href="/#more/" style={styles.greenLinks}>More Info</a>
+            <a href="/#facts/" style={styles.greenLinks}>Fun Facts</a>
           </div>
 
           <div style={{ display: 'flex', alignItems: 'Center' }}>
