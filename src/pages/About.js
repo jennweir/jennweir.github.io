@@ -64,9 +64,9 @@ const About = () => {
           <h1 style={styles.greenFont}>I'm a Computer</h1>
           <h1 style={styles.greenFont}>Science student</h1>
           <div style={{ marginTop: '2%' }}>
-            <a href="/about/#background/" style={styles.greenLinks}>Quick Background</a>
-            <a href="/about/#more/" style={styles.greenLinks}>More Info</a>
-            <a href="/about/#facts/" style={styles.greenLinks}>Fun Facts</a>
+            <a href="/#/about/#background/" style={styles.greenLinks}>Quick Background</a>
+            <a href="/#/about/#more/" style={styles.greenLinks}>More Info</a>
+            <a href="/#/about/#facts/" style={styles.greenLinks}>Fun Facts</a>
           </div>
 
           <div style={{ display: 'flex', alignItems: 'Center' }}>
@@ -209,7 +209,7 @@ const About = () => {
             <h1 style={styles.subheading}>I'm NASA solder certified</h1>
             <p style={styles.subText}>During my summer 2022 internship I
             took a soldered electrical assemblies class and became solder certified 
-            by Jet Propulsion Laboratory.</p>
+            by JPL.</p>
             </div>
           </div> 
         </div>
