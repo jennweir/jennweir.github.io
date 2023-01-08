@@ -15,7 +15,7 @@ const Blog = () => {
     }
   };
   return (
-    <div style={{ justifyContent: 'Center', alignItems: 'Center', margin: '6%' }} className="font-link">
+    <div style={{ justifyContent: 'Center', alignItems: 'Center', margin: '3%' }} className="font-link">
       <div>
         <h1>Blog Posts</h1>
       </div>
