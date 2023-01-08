@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import '../App.css';
 import GoToTop from '../components/GoToTop';
 import mainPhoto from './media/mainPhoto.png';
@@ -64,9 +65,9 @@ const About = () => {
           <h1 style={styles.greenFont}>I'm a Computer</h1>
           <h1 style={styles.greenFont}>Science student</h1>
           <div style={{ marginTop: '2%' }}>
-            <a href="/#/about/#background/" style={styles.greenLinks}>Quick Background</a>
-            <a href="/#/about/#more/" style={styles.greenLinks}>More Info</a>
-            <a href="/#/about/#facts/" style={styles.greenLinks}>Fun Facts</a>
+            <Link to="/about#background" style={styles.greenLinks}>Quick Background</Link>
+            <Link to="/about#more" style={styles.greenLinks}>More Info</Link>
+            <Link to="/about#facts" style={styles.greenLinks}>Fun Facts</Link>
           </div>
 
           <div style={{ display: 'flex', alignItems: 'Center' }}>
