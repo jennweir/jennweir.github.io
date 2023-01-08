@@ -210,7 +210,7 @@ const About = () => {
             <h1 style={styles.subheading}>I'm NASA solder certified</h1>
             <p style={styles.subText}>During my summer 2022 internship I
             took a soldered electrical assemblies class and became solder certified 
-            by JPL.</p>
+            by NASA Jet Propulsion Laboratory.</p>
             </div>
           </div> 
         </div>
