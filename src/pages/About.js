@@ -3,11 +3,6 @@ import { HashLink as Link } from 'react-router-hash-link';
 import '../App.css';
 import GoToTop from '../components/GoToTop';
 import mainPhoto from './media/mainPhoto.png';
-import archRock from './media/archRockUP.png';
-import sequoiaHike from './media/sequoiaHike.png';
-import switzerFalls from './media/switzerFallsHike.png';
-import westCoast from './media/westCoastDrive.png';
-import campus from './media/fallCampus.png';
 import arrow from './media/arrowIcon.png';
 import email from './media/emailIcon.png';
 import linkedin from './media/linkedinIcon.png';
@@ -116,14 +111,14 @@ const About = () => {
             </div> 
             <div style={styles.whiteBox} className='font-link'>
               <div style={{ marginLeft: '2%'}}>
-              <h1 style={styles.subheading}>I'm a 3rd year student (graduating April 2024) at</h1>
+              <h1 style={styles.subheading}>I'm a 4th year student (graduating May 2024) at</h1>
               <p style={styles.subText}>THE UNIVERSITY OF MICHIGAN</p>
               </div>
             </div> 
             <div style={styles.whiteBox} className='font-link'>
               <div style={{ marginLeft: '2%' }}>
-              <h1 style={styles.subheading}>Last summer I interned at Northrop Grumman as a</h1>
-              <p style={styles.subText}>SYSTEMS TEST ENGINEER</p>
+              <h1 style={styles.subheading}>Last summer I worked at Ford Motor Company as a</h1>
+              <p style={styles.subText}>SOFTWARE ENGINEER INTERN</p>
               </div>
             </div> 
             <div id="more"></div>
@@ -132,25 +127,23 @@ const About = () => {
       </div>
 
       <div style={{ fontSize: '20px', fontWeight: '600', marginTop: '10%', margin: '5%', 
-      alignItems: 'Left' }} className="font-link">
+        alignItems: 'Left'
+      }} className="font-link">
         <p className="mobile-spacing">I'm an undergraduate student studying Computer Science with a 
-          minor in Complex Systems at the University of Michigan Ann Arbor (graduating April 2024). 
-          Last summer I interned at Northrop Grumman as a Systems Test Engineer and worked as a NASA
-          contractor at the Armstrong Flight Research Center. I'm a passionate student with an 
-          intrinsic desire to learn more about new scientific breakthroughs and current events in 
-          tech. I love learning new things and I'm always open to working on interesting projects 
-          with new people! 
+          minor in Complex Systems at the University of Michigan Ann Arbor (graduating May 2024). 〽️ Go Blue! 
+          I have interned with Ford Motor Company 🚙 as a Software Engineer Intern (Summer 2023) 
+          and at Northrop Grumman as a Systems Test Engineer where I worked as a NASA contractor at 
+          the Armstrong Flight Research Center 🚀 (Summer 2022). I'm a passionate student 
+          📚 with an intrinsic desire to learn more about new scientific breakthroughs and 
+          current events in 💻 tech. I love learning new things and I'm always open to working 
+          on interesting projects with new people! 
         </p>
-        <p>🔭 I’m currently working as a developer lead on a mobile application with 
-          <a href="https://github.com/void-tech-um"> Void Tech</a>.
-          As a student org, we work on applications that help Michigan students to improve and address 
-          problems within the student community on campus. 
+        <p>🔭 I’m currently working as VP of Development with 
+          <a href="https://voidtechmichigan.org/"> Void Tech</a>.
+          As a student org, we work on applications that help Michigan students to 
+          improve and address problems within the student community on campus. 
         </p>
-        <p>🌱 I’m currently learning about blockchain technology and decentralized applications. 
-          I'm also reading about assembly language programming for 
-          <a href="https://github.com/pkivolowitz/asm_book?utm_source"> Linux machines </a> and for
-          <a href="https://github.com/below/HelloSilicon?utm_source"> Apple Silicon</a>.
-        </p>
+        <p>In my free time I enjoy running 🏃, biking 🚴‍♀️, hot yoga 🧘‍♀️, playing the flute 🎵, and watching Michigan football 🏈.</p>
         <p>💬 Ask me about daily current events. I read the <a href="https://wsj.com"> Wall Street Journal </a>
           and <a href="https://tldr.tech/"> TLDR </a> newsletter daily and enjoy discussing what's 
           happening in the world. Reach out! I'd love to meet you!
@@ -158,7 +151,7 @@ const About = () => {
       </div>
       
 
-      <div id="pictures" className='mobile-disappear'></div>
+      {/* <div id="pictures" className='mobile-disappear'></div>
       <div style={{ marginTop: '10%', marginBottom: '5%' }} className='mobile-disappear'>
           <div style={{ display: 'flex', justifyContent: 'Center', margin: '4%' }} className='font-link'>
             <div style={{ flex: '30%' }}>
@@ -179,7 +172,7 @@ const About = () => {
                 I love taking photos! Here are some pictures of places I've been! </p>
             </div>
           </div>
-        </div>
+        </div> */}
       
       
       <div id="facts"></div>
