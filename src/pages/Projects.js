@@ -50,7 +50,7 @@ const Projects = () => {
           <p style={styles.subheading}>May 2023 - August 2023</p>
           <p style={styles.text}>Haberman Fabrics is an independent, family owned and operated Fabric
             store in Southeast, MI.</p>
-          <p style={styles.text}>Currently in development and website will be linked here once in production.</p>
+          <p style={styles.text}>Website is currently in development and will be linked here once in production.</p>
         </div>
         <div style={{ flex: '50%', margin: '1%', display: 'flex', justifyContent: 'Center', 
         alignItems: 'Center' }}> 

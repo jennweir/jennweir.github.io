@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-// import { useState } from 'react';
+import { useState } from 'react';
 import ScrollToTop from "react-scroll-to-top";
 import DropDown from "../DropDown/index";
 import {
@@ -10,12 +10,20 @@ import {
   
 const Navbar = () => {
   const [width, setWidth] = React.useState(window.innerWidth);
+  // State to track menu visibility
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const breakPoint = 768;
+
   useEffect(() => {
   const handleWindowResize = () => setWidth(window.innerWidth);
   window.addEventListener("resize", handleWindowResize);
   return () => window.removeEventListener("resize", handleWindowResize);
-  },[]);
+  }, []);
+  
+  const toggleMenu = () => {
+    // Toggle the menu state
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   // const [theme, setTheme] = useState('light');
   // const toggleTheme = () => {
@@ -34,9 +42,9 @@ const Navbar = () => {
       {width > breakPoint? (
         <div></div>
       ) : (
-        <DropDown/>
+        <DropDown isOpen={isMenuOpen} toggleMenu={toggleMenu} />
       )}
-        <NavMenu>
+        <NavMenu isOpen={isMenuOpen}>
           <ScrollToTop smooth/>
           <NavLink to="/" activeStyle>
             Home
