@@ -1,6 +1,7 @@
 import React from 'react';
 import GoToTop from '../components/GoToTop';
 import voidLogo from '../pages/media/void-logo-main.png';
+import habfabLogo from '../pages/media/habfab-logo.png';
   
 const Projects = () => {
   const styles = {
@@ -30,19 +31,30 @@ const Projects = () => {
       <div style={{ display: 'flex', justifyContent: 'Center' }} className="mobile">
         <div style={{ flex: '50%', marginTop: '2%' }} className='font-link'>
           <p style={styles.heading}> Void Tech</p>
-          <p style={styles.subheading}>Developer Lead</p>
+          <p style={styles.subheading}>VP of Development</p>
           <p style={styles.subheading}>September 2022 - Present</p>
-          <p style={styles.text}>Currently developing a mobile application to serve as a platform 
-          for University of Michigan students to buy and sell items.</p>
           <p style={styles.text}>Void Tech is a student-led organization at U of M that builds tools
-          for Michigan students. "By Michigan students, for Michigan students."
-          This team consists of a small group of student developers and 
-          designers who pitched ideas at the beginning of the year and are currently developing 
-          the chosen applications.</p>
+            for Michigan students. "By Michigan students, for Michigan students." We are currently
+            working on identifying our projects for this year.</p>
         </div>
         <div style={{ flex: '50%', margin: '1%', display: 'flex', justifyContent: 'Center', 
         alignItems: 'Center' }}> 
-          <img src={voidLogo} alt="Jennifer" style={{ width: '60%', borderRadius: '6%' }}/>
+          <img src={voidLogo} alt="Jennifer" style={{ width: '40%', borderRadius: '6%' }}/>
+        </div>
+      </div>
+
+      <div style={{ display: 'flex', justifyContent: 'Center' }} className="mobile">
+        <div style={{ flex: '50%', marginTop: '2%' }} className='font-link'>
+          <p style={styles.heading}> Haberman Fabrics</p>
+          <p style={styles.subheading}>Freelance Website Work</p>
+          <p style={styles.subheading}>May 2023 - August 2023</p>
+          <p style={styles.text}>Haberman Fabrics is an independent, family owned and operated Fabric
+            store in Southeast, MI.</p>
+          <p style={styles.text}>Currently in development and will be linked here once in production.</p>
+        </div>
+        <div style={{ flex: '50%', margin: '1%', display: 'flex', justifyContent: 'Center', 
+        alignItems: 'Center' }}> 
+          <img src={habfabLogo} alt="Jennifer" style={{ width: '40%', borderRadius: '6%' }}/>
         </div>
       </div>
 

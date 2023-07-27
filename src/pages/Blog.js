@@ -22,7 +22,7 @@ const Blog = () => {
       <div>
         <p style={{ fontSize: '20px', fontWeight: '600', marginTop: '5px', padding: '2px' }}>
         I am a member of Girls in Electrical Engineering and Computer Science (GEECS) at U of M. 
-        Within this organization, I have been on the Internal Relations Committee for 3 semesters 
+        Within this organization, I have been on the Internal Relations Committee for 4 semesters 
         and have written numerous blog posts with a target audience of women in tech. 
         Read each one by clicking the images below!</p>
       </div>
