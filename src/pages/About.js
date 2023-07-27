@@ -148,32 +148,7 @@ const About = () => {
           and <a href="https://tldr.tech/"> TLDR </a> newsletter daily and enjoy discussing what's 
           happening in the world. Reach out! I'd love to meet you!
         </p>
-      </div>
-      
-
-      {/* <div id="pictures" className='mobile-disappear'></div>
-      <div style={{ marginTop: '10%', marginBottom: '5%' }} className='mobile-disappear'>
-          <div style={{ display: 'flex', justifyContent: 'Center', margin: '4%' }} className='font-link'>
-            <div style={{ flex: '30%' }}>
-              <img src={archRock} alt="Arch-shaped rock in the landscape" style={styles.imageTop}/>
-              <img src={switzerFalls} alt="Jennifer on the side of a mountain" style={styles.imageBottom}/>
-            </div>
-            <div style={{ flex: '70%' }}>
-              <div style= {{ display: 'flex' }}> 
-                <div style={{ flex: '40%'}}>
-                  <img src={campus} alt="Campus in the fall" style={{ width: '74%', borderRadius: '6%' }}/>
-                </div>
-                <div style={{ flex: '30%' }}>
-                  <img src={sequoiaHike} alt="Jennifer on a hike" style={styles.imageTop}/>
-                  <img src={westCoast} alt="West Coast road" style={styles.imageBottom}/>
-                </div>
-              </div>
-              <p style={{ fontSize: '25px', fontWeight: '600', marginTop: '5%' }}>
-                I love taking photos! Here are some pictures of places I've been! </p>
-            </div>
-          </div>
-        </div> */}
-      
+      </div>  
       
       <div id="facts"></div>
       <div style={{ marginTop: '10%', display: 'flex', justifyContent: 'Center', marginLeft: '6%' }} 

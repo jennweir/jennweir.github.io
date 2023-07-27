@@ -22,14 +22,19 @@ const Projects = () => {
       margin: '5px',
       textAlign: 'left',
     },
-
-  }
+    projectItem: {
+      display: 'flex',
+      justifyContent: 'Center',
+      marginTop: '2%',
+      marginBottom: '2%',
+    },
+  };
   return (
-    <div style={{  justifyContent: 'Center', margin: '3%' }} className='font-link'>
+    <div style={{  justifyContent: 'Center', margin: '5%' }} className='font-link'>
       <h1>Projects</h1>
 
-      <div style={{ display: 'flex', justifyContent: 'Center' }} className="mobile">
-        <div style={{ flex: '50%', marginTop: '2%' }} className='font-link'>
+      <div style={styles.projectItem} className="mobile">
+        <div style={{ flex: '60%', marginTop: '2%' }} className='font-link'>
           <p style={styles.heading}> Void Tech</p>
           <p style={styles.subheading}>VP of Development</p>
           <p style={styles.subheading}>September 2022 - Present</p>
@@ -37,14 +42,14 @@ const Projects = () => {
             for Michigan students. "By Michigan students, for Michigan students." We are currently
             working on identifying our projects for this year.</p>
         </div>
-        <div style={{ flex: '50%', margin: '1%', display: 'flex', justifyContent: 'Center', 
+        <div style={{ flex: '40%', margin: '1%', display: 'flex', justifyContent: 'Center', 
         alignItems: 'Center' }}> 
-          <img src={voidLogo} alt="Jennifer" style={{ width: '40%', borderRadius: '6%' }}/>
+          <img src={voidLogo} alt="Jennifer" style={{ width: '60%', borderRadius: '6%' }}/>
         </div>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'Center' }} className="mobile">
-        <div style={{ flex: '50%', marginTop: '2%' }} className='font-link'>
+      <div style={styles.projectItem} className="mobile">
+        <div style={{ flex: '60%', marginTop: '2%' }} className='font-link'>
           <p style={styles.heading}> Haberman Fabrics</p>
           <p style={styles.subheading}>Freelance Website Work</p>
           <p style={styles.subheading}>May 2023 - August 2023</p>
@@ -52,9 +57,9 @@ const Projects = () => {
             store in Southeast, MI.</p>
           <p style={styles.text}>Website is currently in development and will be linked here once in production.</p>
         </div>
-        <div style={{ flex: '50%', margin: '1%', display: 'flex', justifyContent: 'Center', 
+        <div style={{ flex: '40%', margin: '1%', display: 'flex', justifyContent: 'Center', 
         alignItems: 'Center' }}> 
-          <img src={habfabLogo} alt="Jennifer" style={{ width: '40%', borderRadius: '6%' }}/>
+          <img src={habfabLogo} alt="Jennifer" style={{ width: '60%', borderRadius: '6%' }}/>
         </div>
       </div>
 
