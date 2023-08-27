@@ -45,7 +45,7 @@ const Projects = () => {
           <p style={styles.subheading}>Freelance Website Work</p>
           <p style={styles.subheading}>May 2023 - Present</p>
           <p style={styles.text}></p>
-          <p style={styles.text}>Haberman Fabrics is an independent, family owned and operated Fabric
+          <p style={styles.text}>Haberman Fabrics is an independent, family owned and operated fabric
             store in Southeast, MI. I replaced Haberman Fabrics' previous Wix
             website with a custom-built solution that I started from scratch. This solution is written using Python Flask for server-side
             rendering, HTML/CSS for the frontend along with React.js entry points, a PostgreSQL relational database, and AWS for hosting.
