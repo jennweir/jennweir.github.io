@@ -1,6 +1,6 @@
 baseURL: 'https://jenniferpweir.com/'
 languageCode: 'en-us'
-title: 'Jennifer Weir Website'
+title: 'Jennifer Weir''s Website'
 theme: 'terminal'
 timeZone: "America/New_York"
 menus:
@@ -50,14 +50,14 @@ markup:
 #     - sitemap.xml
 params:
   social:
-    # - name: contact
-    #   url: mailto:contact@jenniferpweir.com
     - name: linkedin
       url: https://linkedin.com/in/jennifer-weir
     - name: github
       url: https://github.com/jennweir
-    # - name: resume
-    #   url: /files/Jennifer_Weir_Resume.pdf
+    - name: email
+      url: mailto:contact@jenniferpweir.com
+    - name: resume
+      url: /files/Jennifer_Weir_Resume.pdf
     - name: "buy me a coffee"
       url: https://www.buymeacoffee.com/jenniferweir
   disqus: "jenniferpweir"
