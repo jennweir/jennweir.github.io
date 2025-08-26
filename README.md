@@ -8,6 +8,8 @@
 
 <https://github.com/techbarrack/terminal-hugo-theme>
 
+`CGO_ENABLED=1 go install -tags extended,withdeploy github.com/gohugoio/hugo@latest`
+
 ## Run Locally
 
 from hugo-site directory
