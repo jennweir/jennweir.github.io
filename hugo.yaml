@@ -1,0 +1,68 @@
+baseURL: 'https://jenniferpweir.com/'
+languageCode: 'en-us'
+title: 'Jennifer Weir''s Website'
+theme: 'terminal'
+timeZone: "America/New_York"
+menus:
+  main:
+    - identifier: about
+      name: About
+      url: /about.html
+      weight: 20
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 40
+pagination:
+  pagerSize: 10
+permalinks:
+  blog: "/blog/:year/:month/:day/:title/"
+taxonomies:
+  tag: "tags"
+  author: "authors"
+indexes:
+  tag: "tags"
+markup:
+  defaultMarkdownHandler: "goldmark"
+  goldmark:
+    # Enable or disable smartypants (automatic conversion of ASCII punctuation to smart punctuation)
+    smartypants: true
+    # Enable or disable fractions (automatic conversion of fractions)
+    fractions: true
+    # Enable or disable superscript and subscript support
+    # (enable to allow ^ and ~ for superscript and subscript)
+    superscript: true
+    unsafe: true
+# ignoreFiles:
+#   - "themes/terminal/content"
+# outputs:
+#   blog:
+#     - HTML
+#     - RSS
+#     - sitemap-blog.xml
+#   home:
+#     - HTML
+#     - RSS
+#     - sitemap.xml
+params:
+  social:
+    - name: linkedin
+      url: https://linkedin.com/in/jennifer-weir
+    - name: github
+      url: https://github.com/jennweir
+    - name: email
+      url: mailto:contact@jenniferpweir.com
+    - name: resume
+      url: /files/Jennifer_Weir_Resume.pdf
+    - name: "buy me a coffee"
+      url: https://www.buymeacoffee.com/jenniferweir
+  disqus: "jenniferpweir"
+
+module:
+  hugoVersion:
+    extended: false
+    min: "0.116.0"
