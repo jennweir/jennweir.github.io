@@ -1,5 +1,15 @@
 # Jennifer's Personal Website
 
+## Flow
+
+### dev
+
+dev (source)  --->  GitHub Actions build  --->  gh-pages-dev (deployment)  ---> dev.jenniferpweir.com
+
+### prod
+
+main (source)  --->  GitHub Actions build  --->  gh-pages (deployment)  ---> jenniferpweir.com
+
 ## References
 
 <https://gohugo.io/installation/macos/>
