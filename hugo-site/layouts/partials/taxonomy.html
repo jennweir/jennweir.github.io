@@ -15,7 +15,7 @@
       {{ range .Scratch.Get "taxonomy" }}
       <div>
         <a href="{{ .Page.Permalink }}" title="All pages with tag <i>{{ .Page.Title | lower }}</i>"
-          class="border border-sky-400 p-1 hover:bg-sky-400 focus:bg-sky-400 text-center whitespace-nowrap">{{ .Page.Title | lower }} x
+          class="border border-lt-green-400 p-1 hover:bg-lt-green-400 focus:bg-lt-green-400 text-center whitespace-nowrap">{{ .Page.Title | lower }} x
           {{
           .Count }}</a>
       </div>

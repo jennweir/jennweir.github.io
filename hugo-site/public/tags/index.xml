@@ -43,26 +43,5 @@
       <guid>http://localhost:1313/tags/template/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Css</title>
-      <link>http://localhost:1313/tags/css/</link>
-      <pubDate>Sat, 30 Mar 2024 19:25:10 +0530</pubDate>
-      <guid>http://localhost:1313/tags/css/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Testing</title>
-      <link>http://localhost:1313/tags/testing/</link>
-      <pubDate>Sat, 30 Mar 2024 19:25:10 +0530</pubDate>
-      <guid>http://localhost:1313/tags/testing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pagination</title>
-      <link>http://localhost:1313/tags/pagination/</link>
-      <pubDate>Wed, 28 Feb 2024 23:12:51 +0530</pubDate>
-      <guid>http://localhost:1313/tags/pagination/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
