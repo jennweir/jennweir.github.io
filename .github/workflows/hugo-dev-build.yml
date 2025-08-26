@@ -33,7 +33,7 @@ jobs:
 
       # 4. Deploy to gh-pages-dev branch
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v5
+        uses: peaceiris/actions-gh-pages@latest
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages-dev
