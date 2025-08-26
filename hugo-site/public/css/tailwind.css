@@ -1277,7 +1277,7 @@ svg {
 
 .from-slate-900 {
   --tw-gradient-from: #073B3A var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(15 23 42 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-to: rgb(7 59 58 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -1469,7 +1469,7 @@ svg {
 
   .max-lg\:bg-slate-900 {
     --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+    background-color: rgb(7 59 58 / var(--tw-bg-opacity));
   }
 }
 
