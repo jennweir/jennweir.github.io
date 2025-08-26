@@ -2,8 +2,10 @@ name: Deploy Dev Branch to GitHub Pages
 
 on:
   push:
-    branches:
-      - dev  # Trigger when you push to dev branch
+    branches-ignore:
+      - main
+      - gh-pages
+      - gh-pages-dev
 
 jobs:
   build:
