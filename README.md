@@ -1,4 +1,15 @@
 # Jennifer's Personal Website
-Source code for my personal website. 
 
-This page was bootstrapped with [Create React App](https://create-react-app.dev/docs/getting-started/).
+## References
+
+<https://gohugo.io/installation/macos/>
+
+### Bootstrapped from the Terminal Hugo Theme
+
+<https://github.com/techbarrack/terminal-hugo-theme>
+
+## Run Locally
+
+from hugo-site directory
+
+`hugo server --buildDrafts --disableFastRender --gc --ignoreCache --noHTTPCache --forceSyncStatic  -w`
