@@ -1,4 +1,4 @@
-name: Deploy Dev Branch to GitHub Pages
+name: Build & Deploy Dev Branch to GitHub Pages
 
 on:
   push:
@@ -12,20 +12,24 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-      # 1. Checkout the dev branch
-      - uses: actions/checkout@v3
+      # 1. Checkout the code
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          submodules: true   # fetch themes if used as submodules
 
-      # 2. Install Hugo
+      # 2. Setup Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.116.0'
+          hugo-version: '0.148.2'  # your tested version
+          extended: true
 
-      # 3. Build the site
-      - name: Build Hugo Site
-        run: hugo --minify --destination public
+      # 3. Build Hugo site
+      - name: Build Hugo site
+        working-directory: hugo-site
+        run: hugo --gc --minify --destination public
 
       # 4. Deploy to gh-pages-dev branch
       - name: Deploy to GitHub Pages
@@ -33,5 +37,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages-dev
-          publish_dir: ./public
+          publish_dir: ./hugo-site/public
           cname: dev.jenniferpweir.com
