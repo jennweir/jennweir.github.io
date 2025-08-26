@@ -66,3 +66,5 @@ module:
   hugoVersion:
     extended: false
     min: "0.116.0"
+  imports:
+    - path: https://github.com/techbarrack/terminal-hugo-theme
