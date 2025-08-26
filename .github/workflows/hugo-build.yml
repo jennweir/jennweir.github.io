@@ -22,11 +22,4 @@ jobs:
 
       - name: Build Hugo site
         run: |
-          hugo \
-            --buildDrafts \
-            --disableFastRender \
-            --gc \
-            --ignoreCache \
-            --noHTTPCache \
-            --forceSyncStatic \
-            --minify
+          hugo --gc --minify
