@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - '**'
-  pull_request:
 
 jobs:
   build:
@@ -23,5 +22,5 @@ jobs:
           extended: true
 
       - name: Build Hugo site
-        run: |
-          hugo --gc --minify
+        working-directory: hugo-site
+        run: hugo --gc --minify
