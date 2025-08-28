@@ -9,8 +9,6 @@
         <h1 class="text-3xl max-sm:text-2xl font-bold">Blog</h1>
       </div>
       <hr/>
-      {{ $blogPages := where .Site.RegularPages "Section" "blog" }}
-      {{ .Scratch.Set "blogPages" $blogPages }}
       {{ partial "pagination.html" . }}
     </div>
     <!-- Sidebar -->

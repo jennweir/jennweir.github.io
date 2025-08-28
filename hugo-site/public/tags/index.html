@@ -97,6 +97,12 @@
       </div>
       
       <div>
+        <a href="http://localhost:1313/tags/archive/" title="All pages with tag <i>archive</i>"
+          class="border border-lt-green-400 p-1 hover:bg-lt-green-400 focus:bg-lt-green-400 text-center whitespace-nowrap">archive x
+          5</a>
+      </div>
+      
+      <div>
         <a href="http://localhost:1313/tags/demo/" title="All pages with tag <i>demo</i>"
           class="border border-lt-green-400 p-1 hover:bg-lt-green-400 focus:bg-lt-green-400 text-center whitespace-nowrap">demo x
           1</a>
@@ -139,6 +145,18 @@
 
   <script id="dsq-count-scr" src="//jenniferweir.disqus.com/count.js" async></script>
   
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    function getGreeting() {
+      const hour = new Date().getHours();
+      if (hour < 12) return "👋 Good morning!";
+      if (hour < 18) return "👋 Good afternoon!";
+      return "👋 Good evening!";
+    }
+    const el = document.getElementById('dynamic-greeting');
+    if (el) el.textContent = getGreeting();
+  });
+</script>
 </body>
 
 </html>

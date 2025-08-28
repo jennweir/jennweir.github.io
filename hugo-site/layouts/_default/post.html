@@ -9,9 +9,6 @@
       <div class="flex flex-row flex-wrap max-md:gap-4 gap-10">
         <p>📅 {{ .Date.Format "Monday, Jan 2, 2006" }}</p>
         <p>⏰ {{ .Date.Format "15:04:05" }}</p>
-        {{ with .Params.lastmod }}
-          <p>🔄 {{ .Format "Monday, Jan 2, 2006 15:04:05" }}</p>
-        {{ end }}
         <p>📖 Reading time: {{ .ReadingTime }} min</p>
       </div>
       <!-- Authors -->
