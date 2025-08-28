@@ -3,23 +3,36 @@
   
   <div class="flex flex-row justify-between pt-8">
     <!-- Main Content-->
-    <div class="flex flex-col w-full gap-4">
+    <div class="flex flex-col w-full gap-6">
       <div class="flex flex-row gap-4">
         <p class="text-3xl max-sm:text-2xl">📝</p>
         <h1 class="text-3xl max-sm:text-2xl font-bold">Blog</h1>
       </div>
       <hr/>
-      {{ $blogPages := where .Site.RegularPages "Section" "blog" }}
-      {{ .Scratch.Set "blogPages" $blogPages }}
+
+      {{ $allPosts := where .Site.RegularPages "Section" "blog" }}
+      {{ $archive := where $allPosts "Params.tags" "intersect" (slice "archive") }}
+      {{ $nonArchive := where $allPosts "Params.tags" "!=" "archive" }}
+
+
+      <!-- Non-archive posts -->
+      <h2 class="text-2xl font-semibold">Recent Posts</h2>
+      {{ .Scratch.Set "blogPages" $nonArchive }}
       {{ partial "pagination.html" . }}
+
+      <hr/>
+
+      <!-- Archive posts -->
+      <h2 class="text-2xl font-semibold">Archive</h2>
+      {{ range $archive }}
+        <div>
+          <a href="{{ .RelPermalink }}" class="text-xl font-bold">{{ .Title }}</a>
+          <p class="text-gray-500 text-sm">{{ .Date.Format "Jan 2, 2006" }}</p>
+        </div>
+      {{ else }}
+        <p>No archive posts yet.</p>
+      {{ end }}
     </div>
-    <!-- Sidebar -->
-    <!-- <div class="flex flex-col w-5/12 gap-10">
-      <div class="border p-4">
-      </div>
-      <div class="border p-4">
-      </div>
-    </div> -->
   </div>
 
   {{ partial "footer_regular.html" . }}  

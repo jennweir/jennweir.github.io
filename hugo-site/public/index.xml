@@ -6,8 +6,15 @@
     <description>Recent content in Home on Jennifer Weir</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Aug 2025 03:33:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Post</title>
+      <link>http://localhost:1313/blog/2025/08/28/new-post/</link>
+      <pubDate>Thu, 28 Aug 2025 03:33:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2025/08/28/new-post/</guid>
+      <description>&lt;p&gt;Hey all!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>🙋‍♀️ About Me</title>
       <link>http://localhost:1313/about.html</link>
