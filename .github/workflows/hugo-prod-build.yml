@@ -27,6 +27,7 @@ jobs:
 
       # 3. Build the site
       - name: Build Hugo site
+        working-directory: hugo-site
         run: hugo --gc --minify --destination public
 
       # 4. Deploy to gh-pages branch
