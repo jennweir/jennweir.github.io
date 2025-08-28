@@ -6,19 +6,12 @@
     <description>Recent content in Home on Jennifer Weir</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Apr 2025 19:01:48 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Markdown Template</title>
-      <link>http://localhost:1313/blog/2025/04/01/markdown-template/</link>
-      <pubDate>Tue, 01 Apr 2025 19:01:48 +0530</pubDate>
-      <guid>http://localhost:1313/blog/2025/04/01/markdown-template/</guid>
-      <description>&lt;h2 id=&#34;svg-testing&#34;&gt;SVG Testing&lt;/h2&gt;&#xA;&lt;p&gt;This is some random text to test a SVG in between the text. So, keep reading through this text until you see a svg. Still don&amp;rsquo;t see it? Wait for it. It is going to take a while before you see it. Waiting&amp;hellip; Waiting&amp;hellip; Lorem ipsum should have been used here :/. Any way, here you go. The svg is here&lt;/p&gt;&#xA;&lt;h2 class=&#34;text-5xl&#34; id=&#34;this-is-custom-styling&#34;&gt;This is custom Styling&lt;/h2&gt;&#xA;&lt;h2 id=&#34;raw-html&#34;&gt;Raw HTML&lt;/h2&gt;&#xA;&#xA;&#xA;&lt;div&gt;This is raw HTML content&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Advertisement :)&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
     <item>
       <title>🙋‍♀️ About Me</title>
       <link>http://localhost:1313/about.html</link>
-      <pubDate>Thu, 28 Mar 2024 15:00:00 +0000</pubDate>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about.html</guid>
       <description>&lt;h2 id=&#34;dynamic-greeting&#34; class=&#34;text-2xl font-bold&#34;&gt;&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;I am a Kubernetes Platform Engineer at Ford Motor Company. 🚙 I have a Bachelor of Science in Computer Science with a minor in Complex Systems from the University of Michigan. 〽️ Go Blue!&lt;/p&gt;&#xA;&lt;p&gt;In my free time, I enjoy running 🏃‍♀️, biking 🚴‍♀️, rock climbing 🧗‍♀️, hot yoga 🧘‍♀️, golfing 🏌️‍♀️, playing the flute 🪈, reading (mostly non-fiction) 📖, and watching the Lions or Michigan football 🏈.&lt;/p&gt;</description>
     </item>

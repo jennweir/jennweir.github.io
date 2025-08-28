@@ -6,43 +6,8 @@
     <description>Recent content in Tags on Jennifer Weir</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Apr 2025 19:01:48 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Another Tag</title>
-      <link>http://localhost:1313/tags/another-tag/</link>
-      <pubDate>Tue, 01 Apr 2025 19:01:48 +0530</pubDate>
-      <guid>http://localhost:1313/tags/another-tag/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Demo</title>
-      <link>http://localhost:1313/tags/demo/</link>
-      <pubDate>Tue, 01 Apr 2025 19:01:48 +0530</pubDate>
-      <guid>http://localhost:1313/tags/demo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Example</title>
-      <link>http://localhost:1313/tags/example/</link>
-      <pubDate>Tue, 01 Apr 2025 19:01:48 +0530</pubDate>
-      <guid>http://localhost:1313/tags/example/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>http://localhost:1313/tags/markdown/</link>
-      <pubDate>Tue, 01 Apr 2025 19:01:48 +0530</pubDate>
-      <guid>http://localhost:1313/tags/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Template</title>
-      <link>http://localhost:1313/tags/template/</link>
-      <pubDate>Tue, 01 Apr 2025 19:01:48 +0530</pubDate>
-      <guid>http://localhost:1313/tags/template/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Archive</title>
       <link>http://localhost:1313/tags/archive/</link>

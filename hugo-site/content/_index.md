@@ -1,6 +1,6 @@
 ---
 title: "Home"
-date: 2024-03-28T15:00:00+00:00
+date: 2025-08-28T00:00:00Z
 draft: false
 layout: "home"
 description: "{{ .Title }}"
