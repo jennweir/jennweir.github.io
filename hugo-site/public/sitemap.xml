@@ -2,23 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-08-28T03:33:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/authors/</loc>
-    <lastmod>2025-08-28T03:33:00+00:00</lastmod>
+    <lastmod>2025-08-28T17:16:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2025/08/28/my-why/</loc>
+    <lastmod>2025-08-28T17:16:23+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/new/</loc>
-    <lastmod>2025-08-28T03:33:00+00:00</lastmod>
+    <lastmod>2025-08-28T17:16:23+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/2025/08/28/new-post/</loc>
-    <lastmod>2025-08-28T03:33:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/welcome/</loc>
+    <lastmod>2025-08-28T17:16:23+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about.html</loc>
     <lastmod>2025-08-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2025-08-26T15:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-08-26T15:00:00+00:00</lastmod>
