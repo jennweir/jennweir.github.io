@@ -15,3 +15,9 @@
 from hugo-site directory
 
 `hugo server --buildDrafts --disableFastRender --gc --ignoreCache --noHTTPCache --forceSyncStatic  -w`
+
+## Deployment Flow
+
+development branch --> push to any branch other than main, gh-pages, or gh-pages-dev --> always deploys to gh-pages-dev branch
+
+on merge PR to main --> run prod workflow --> deploys to gh-pages
