@@ -1,9 +1,9 @@
-name: Deploy Hugo to Production
+name: Deploy to Production Branch
 
 on:
   push:
     branches:
-      - main  # Trigger on main branch pushes
+      - main
 
 jobs:
   build:
@@ -15,22 +15,24 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          submodules: true               # fetch themes if used as submodules
 
       # 2. Setup Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '1.13.3'  # use your desired Hugo version
+          hugo-version: '0.148.2'  # your tested version
+          extended: true
 
       # 3. Build the site
       - name: Build Hugo site
-        run: hugo --minify --destination public
+        run: hugo --gc --minify --destination public
 
       # 4. Deploy to gh-pages branch
-      - name: Deploy to GitHub Pages (production)
-        uses: peaceiris/actions-gh-pages@v6
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages           # production deployment branch
-          publish_dir: ./public
-          cname: jenniferpweir.com          # sets the CNAME for production
+          publish_branch: gh-pages
+          publish_dir: ./hugo-site/public
+          cname: jenniferpweir.com
