@@ -1,11 +1,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ .Description }}">
+
 <!-- Geo tags -->
-<meta name="ICBM" content="19.0760, 72.8777">
-<meta name="geo.position" content="19.0760;72.8777">
-<meta name="geo.region" content="IN-MH">
-<meta name="geo.placename" content="Mumbai">
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<meta name="ICBM" content="40.7128, -74.0060">
+<meta name="geo.position" content="40.7128;-74.0060">
+<meta name="geo.region" content="US-NY">
+<meta name="geo.placename" content="New York">
+
+<title>
+  {{ if .IsHome }}
+    {{ site.Title }}
+  {{ else }}
+    {{ printf "%s | %s" .Title site.Title }}
+  {{ end }}
+</title>
+
+<!-- Favicon -->
+<link rel="icon" href="{{ "favicon.png" | relURL }}" type="image/x-icon">
 
 {{ partialCached "head/css.html" . }}

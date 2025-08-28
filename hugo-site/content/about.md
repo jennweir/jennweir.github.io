@@ -13,7 +13,7 @@ url: "/about.html"
 
 I am a Kubernetes Platform Engineer at Ford Motor Company. 🚙 I have a Bachelor of Science in Computer Science with a minor in Complex Systems from the University of Michigan. 〽️ Go Blue!
 
-In my free time, I enjoy running 🏃‍♀️, biking 🚴‍♀️, rock climbing 🧗‍♀️, hot yoga 🧘‍♀️, golfing 🏌️‍♀️, playing the flute 🪈, reading (mostly non-fiction) 📖, and watching the Lions or Michigan football 🏈.
+In my free time, I enjoy running 🏃‍♀️, biking 🚴‍♀️, rock climbing 🧗‍♀️, hot yoga 🧘‍♀️, golfing 🏌️‍♀️, playing the flute 🪈, reading (primarily non-fiction) 📖, and watching the Lions or Michigan football 🏈.
 
 ## 👩‍💻 Experience
 

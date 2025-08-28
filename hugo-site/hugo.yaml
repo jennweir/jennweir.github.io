@@ -49,7 +49,7 @@ params:
     - name: email
       url: mailto:contact@jenniferpweir.com
     - name: resume
-      url: /files/Jennifer_Weir_Resume.pdf
+      url: /files/Resume_Jennifer_Weir.pdf
     - name: "buy me a coffee"
       url: https://www.buymeacoffee.com/jenniferweir
   disqus: "jenniferpweir"
