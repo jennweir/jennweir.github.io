@@ -21,4 +21,4 @@ Engineering leaders should prioritize strong business practices to filter out un
 
 How do we accomplish this? We teach business and engineering as a co-dependent, interdisciplinary system. More on this next week!
 
->* Substitute "morale" with "output", "productivity", "personal fulfillment", "disposition", "salary". Anything that can affect people, you name it!
+>/* Substitute "morale" with "output", "productivity", "personal fulfillment", "disposition", "salary". Anything that can affect people, you name it!
