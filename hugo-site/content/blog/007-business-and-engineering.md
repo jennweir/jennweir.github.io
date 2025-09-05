@@ -9,7 +9,7 @@ tags: ["new"]
 authors: ["Jennifer Weir"]
 ---
 
-From grade school to higher education, business and engineering an treated as separate subjects. We aren't taught they are mutually exclusive but in general, they are separate because business people don't *need* to know engineering concepts and engineers *should* just focus on engineering. This is a typical argument for separation of duties -- why do people *need to know* how the other thing works if they can be really good at one thing?
+From grade school to higher education, business and engineering an treated as separate subjects. In general, they are separate because "business people don't *need* to know engineering concepts and engineers should just focus on engineering", right?. This is a typical argument for separation of duties -- why do people *need to know* how the other thing works if they can be really good at one thing?
 
 In the real world, we see business and engineering become increasingly intertwined as problems become complex. Realistically, these two subjects are extremely reliant on each other because *people are complex*. From a corporate perspective, engineering needs to be funded and business doesn't happen unless there is some (typically engineered in some way) product to exchange. In every case, people are consumers of these types of transactions. Corporate organizational structures assign eccentric titles and positions, divide departments, and restructure responsibilities in an attempt to make sense of these complex systems; however, there is a common denominator in every case: business and engineering are treated as separate entities until it really matters to treat them as one.
 
