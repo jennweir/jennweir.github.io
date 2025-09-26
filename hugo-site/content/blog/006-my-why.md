@@ -5,7 +5,7 @@ draft: false
 params:
   slug: "my-why"
 layout: "post"
-tags: ["new", "welcome"]
+tags: ["welcome"]
 authors: ["Jennifer Weir"]
 ---
 
