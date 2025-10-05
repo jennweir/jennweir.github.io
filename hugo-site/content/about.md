@@ -19,6 +19,8 @@ In my free time, I enjoy running 🏃‍♀️, biking 🚴‍♀️, rock climb
 
 Kubernetes Platform Engineer @ Ford Motor Company (July 2024 - Present)
 
+Instructional Aide & Private Tutor @ University of Michigan (August 2023 - May 2024)
+
 Software Engineer Intern @ Ford Motor Company (Summer 2023)
 
 Systems Test Engineer Intern @ Northrop Grumman & Contractor @ NASA (Summer 2022)
