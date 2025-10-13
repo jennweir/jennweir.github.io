@@ -5,7 +5,7 @@ draft: false
 params:
   slug: "business and engineering"
 layout: "post"
-tags: ["new"]
+tags: ["team-building", "interdisciplinarity"]
 authors: ["Jennifer Weir"]
 ---
 

@@ -5,7 +5,7 @@ draft: false
 params:
   slug: "building-better-teams"
 layout: "post"
-tags: ["new"]
+tags: ["team-building"]
 authors: ["Jennifer Weir"]
 ---
 
