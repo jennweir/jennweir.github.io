@@ -9,7 +9,7 @@ tags: ["new", "book review"]
 authors: ["Jennifer Weir"]
 ---
 
-Book Analysis! I love non-fiction. I love hearing (or reading) people's stories. I love when a non-fiction piece is a true page turner. Most of all, I love when something read in a book lines up with life in such a way that feels as if the author **knew** it was meant for you. Partly great book buying by the consumer, partly great book recommending by a friend (or algorithm), or maybe, they're a very good author capable of targeting a wide audience. All wins!
+Book Review! I love non-fiction. I love hearing (or reading) people's stories. I love when a non-fiction piece is a true page turner. Most of all, I love when something read in a book lines up with life in such a way that feels as if the author **knew** it was meant for you. Partly great book buying by the consumer, partly great book recommending by a friend (or algorithm), or maybe, they're a very good author capable of targeting a wide audience. All wins!
 
 Guidara's "Unreasonable Hospitality" takes a perspective on interpersonal relationships unlike anything I have experienced before. He creates an atmosphere of sincere optimism while sharing heart-breaking details from his childhood and simplifies every lesson down to his most foundational truth: people like to be treated well. Throughout written text and mass media, it seems ingenuine to say we benefit by "giving people more than they expect" but Guidara introduces this concept as if it's a no brainer. He provides real-life anecdotes from his time as a young college grad in restaurant management, depicting each scene with enlightening details of giving people more than they expect.
 
