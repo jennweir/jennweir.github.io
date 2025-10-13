@@ -5,7 +5,7 @@ draft: false
 params:
   slug: "interdisciplinarity"
 layout: "post"
-tags: ["new"]
+tags: ["team-building", "interdisciplinarity"]
 authors: ["Jennifer Weir"]
 ---
 
