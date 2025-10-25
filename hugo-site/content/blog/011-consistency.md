@@ -1,0 +1,20 @@
+---
+title: "Consistency"
+date: "2025-10-25T15:21:25Z"
+draft: false
+params:
+  slug: "consistency"
+layout: "post"
+tags: ["new"]
+authors: ["Jennifer Weir"]
+---
+
+I’m a practitioner of yoga, or in other words, a yogi. I like to go to classes twice a week when it's cold outside and typically take most of the summer off to do outdoor activities in place of yoga when the weather is nice. Around this time of year, I adore picking back up with yoga and recognize what a gift it is to be able to continue with a consistent schedule. My personal favorite is seeing new faces attend a hot vinyasa, especially this time of year and into the new year. After years of an on-again, off-again yoga practice due to living in different places and a busy school schedule, being able to attend yoga classes consistently post-grad is so special, particularly when I think back to my first class years ago and realize how its transformative impact still stays with me today
+
+What does this have to do with consistency? Mainly, when I’m consistent with an activity, such as yoga, I feel better and that positive energy radiates into everything else I do. This is trivial and people know it, not something novel or new. However, the most recent class I attended presented a new perspective that opened my eyes to something bigger: sometimes, it is better to be an inconsistent beginner. 
+
+I’ll paint the picture here. It was about 45 minutes into the hour-long class, and we began the set of long-held postures the instructor had planned for us. This is where you are dripping sweat and your heart rate is elevated, but there is a sense of serenity in the situation. You are untroubled because you’re doing the best you can and feel peaceful because yoga is about stillness and calming your mind. As a result, there is nothing else to do but hold the postures, come back to them if you fall out, and envelope yourself in the reason you came to class in the first place: consistency. And at this point, the instructor says something I have never heard before in 6 years of classes: “The beginners today actually have it easier than the advanced practitioners. It will take less time for them to reach that point of wanting to quit and they will experience the deep sensations of trying to give up sooner than anyone else here. The beginners are at an advantage because they will achieve what we are all working towards much sooner than any advanced practitioner in the room.”
+
+We look up to people with years of experience, striving to be like them, trying to breeze past the learning phase, and failing to appreciate the value of struggle. This is the most special message I have gotten from a yoga class and it had me thinking of all the impactful ways this concept affects us. At work, we rush to produce more, which can lead to burnout. In school, we rush to learn faster, which can push students to cheat in an attempt to keep up. In traditional gyms, we strive to get bigger and faster, which can be influenced by using artificial methods to achieve the “perfect” physique. No part of this view implies true growth is not valuable, but the unpopular perspective that “sometimes it is better to be an inconsistent beginner” has me thinking about the beneficial ways this growth mindset could be applied in all aspects of life.
+
+The best part about this instructor is he practices what he preaches and strives for consistency himself (not to mention he is my absolute favorite instructor at this gym, who taught my first yoga class 6 years ago). His current battle with cancer has not stopped him from teaching every week, which is inspiring in itself. So, as we strive to be advanced, we can first be appreciative of the fact that, as beginners, we feel the sensations of struggle sooner (the whole point of these yoga classes is pushing yourself to the edge as a source of growth) because when we struggle sooner, we see growth sooner. On the flip side, when we do become advanced practitioners in whatever we are working towards, it will take us longer to experience true growth, and what a gift that is to consistently raise the bar.
