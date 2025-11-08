@@ -5,7 +5,7 @@ draft: false
 params:
   slug: "unreasonable-hospitality-pt1"
 layout: "post"
-tags: ["new", "book review"]
+tags: ["book review", "team-building"]
 authors: ["Jennifer Weir"]
 ---
 
