@@ -23,7 +23,7 @@ pagination:
   pagerSize: 10
 
 permalinks:
-  blog: "/blog/:year/:month/:day/:title/"
+  blog: "/blog/:title/"
 
 taxonomies:
   tag: "tags"
