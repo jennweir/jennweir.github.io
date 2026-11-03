@@ -1,0 +1,28 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+
+  <div class="flex flex-col pt-8 gap-10 w-full">
+    <div class="flex flex-col w-full gap-4">
+      <h2 class="text-3xl font-bold">{{ .Title }}</h2>
+      <hr />
+      <div class="flex flex-row flex-wrap gap-4">
+        {{ with .Params.github }}
+          <a href="{{ . }}" class="font-bold border border-lt-green-400 px-3 py-2 hover:bg-lt-green-400 focus:text-lt-green text-center" target="_blank" rel="noopener noreferrer">GitHub</a>
+        {{ end }}
+        {{ with .Params.demo }}
+          <a href="{{ . }}" class="font-bold border border-lt-green-400 px-3 py-2 hover:bg-lt-green-400 focus:text-lt-green text-center" target="_blank" rel="noopener noreferrer">Demo</a>
+        {{ end }}
+      </div>
+      {{ with .Params.description }}
+        <p class="text-lg">{{ . }}</p>
+      {{ end }}
+      {{ with .Params.tech }}
+        <p class="text-sm text-slate-300"><span class="font-bold">Tech:</span> {{ . }}</p>
+      {{ end }}
+      {{ if .Content }}
+        {{ partial "markdown.html" . }}
+      {{ end }}
+    </div>
+    {{ partial "footer_regular.html" . }}
+  </div>
+{{ end }}

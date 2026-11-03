@@ -10,14 +10,14 @@ menus:
       name: About
       url: /about.html
       weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 25
     - identifier: blog
       name: Blog
       url: /blog
       weight: 30
-    - identifier: tags
-      name: Tags
-      url: /tags
-      weight: 40
 
 pagination:
   pagerSize: 10

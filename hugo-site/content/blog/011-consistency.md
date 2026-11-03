@@ -5,7 +5,7 @@ draft: false
 params:
   slug: "consistency"
 layout: "post"
-tags: ["new"]
+tags: ["team-building", "interdisciplinarity"]
 authors: ["Jennifer Weir"]
 ---
 

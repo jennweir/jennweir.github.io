@@ -3,3 +3,9 @@
     <a href="{{ .URL }}">{{ .Name }}</a>
   </li>
 {{ end }}
+{{ $isTagsPage := and (or (eq .Kind "taxonomy") (eq .Kind "term")) (eq .Data.Plural "tags") }}
+{{ if or (eq .Section "blog") $isTagsPage }}
+  <li class="font-bold border border-lt-green-400 px-3 py-2 hover:bg-lt-green-400 focus:text-lt-green text-center">
+    <a href="{{ "/tags" | relLangURL }}">Tags</a>
+  </li>
+{{ end }}
