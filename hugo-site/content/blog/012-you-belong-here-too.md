@@ -5,7 +5,7 @@ draft: false
 params:
   slug: "you-belong-here-too"
 layout: "post"
-tags: ["new", "conference talk", "interdisciplinarity", "team-building"]
+tags: ["conference talk", "interdisciplinarity", "team-building"]
 authors: ["Jennifer Weir"]
 ---
 

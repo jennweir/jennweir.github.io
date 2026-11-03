@@ -1,9 +1,9 @@
 ---
-title: "Unreasonable Hospitality Part 1"
+title: "Unreasonable Hospitality"
 date: "2025-10-13T02:32:16Z"
 draft: false
 params:
-  slug: "unreasonable-hospitality-pt1"
+  slug: "unreasonable-hospitality"
 layout: "post"
 tags: ["book review", "team-building"]
 authors: ["Jennifer Weir"]
